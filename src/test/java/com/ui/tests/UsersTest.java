@@ -1,6 +1,5 @@
 package com.ui.tests;
 
-import com.BaseUITest;
 import org.springframework.stereotype.Component;
 import org.testng.annotations.Test;
 

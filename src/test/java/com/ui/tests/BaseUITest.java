@@ -1,5 +1,6 @@
-package com;
+package com.ui.tests;
 
+import com.TestSetup;
 import com.codeborne.selenide.Configuration;
 import com.ui.steps.LoginPageSteps;
 import com.ui.steps.MainPageSteps;
