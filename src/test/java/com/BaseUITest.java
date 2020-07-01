@@ -7,14 +7,13 @@ import com.ui.steps.UserAccountPageSteps;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.annotation.DirtiesContext.ClassMode;
-import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeSuite;
 
 import static com.codeborne.selenide.Selenide.close;
 
 @DirtiesContext(classMode = ClassMode.AFTER_EACH_TEST_METHOD)
-public abstract class BaseUITest extends AbstractTestNGSpringContextTests {
+public abstract class BaseUITest extends TestSetup {
     public final String UI_APP_URL = "http://automationpractice.com/";
     public final String UI_APP_LOGOUT_LINK = "index.php?mylogout=";
 
