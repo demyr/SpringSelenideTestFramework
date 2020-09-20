@@ -1,6 +1,6 @@
 ## Prepare environment
 
-- To launch the project you should have maven and java installed on your computer
+- To launch the project you should have maven and java installed on your computer. Besides this latest versions of Chrome and Firefox should be available on your computer.
      - Install [JDK 11 for Windows](https://docs.oracle.com/en/java/javase/11/install/installation-jdk-microsoft-windows-platforms.html#GUID-371F38CC-248F-49EC-BB9C-C37FC89E52A0)
      - Install [Maven](https://maven.apache.org/install.html)
 
